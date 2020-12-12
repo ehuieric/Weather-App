@@ -13,7 +13,7 @@ function apisearch (cityname) {
 
     var APIkey = `56396c503c5dc56ffc899f8c7489582d`;
     var key = '7YBjjSaewx5BgAnD4Sxe61fQ83dHuABQ';
-    var url1= `http://www.mapquestapi.com/geocoding/v1/address?key=${key}&location=${cityname}`;
+    var url1= `https://www.mapquestapi.com/geocoding/v1/address?key=${key}&location=${cityname}`;
    
     $.ajax({
         url: url1,
