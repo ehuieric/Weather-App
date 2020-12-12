@@ -60,7 +60,7 @@ function apisearch (cityname) {
             for(let i = 1; i < 6; i++) {
                 const forecast = data.daily[i];
                 const date = formatDate(data.daily[i].dt);
-                const iconurl = `http://openweathermap.org/img/w/${data.daily[i].weather[0].icon}.png`;
+                const iconurl = `https://openweathermap.org/img/w/${data.daily[i].weather[0].icon}.png`;
 
                 $("#futureTemp").append (`<div class="col-sm">
                                             <div class="box">
