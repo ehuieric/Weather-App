@@ -1,0 +1,41 @@
+.left {
+    background-color: #f7f3f3a8;
+}
+
+.right {
+    background-color: white;
+}
+
+.city {
+    text-transform: capitalize;
+
+}
+
+.box { 
+    padding: 20px; 
+    line-height: 60px; 
+    border: 1px solid black;
+    background-color: teal;
+    color: white;
+} 
+
+.info {
+
+    border: solid 1px;
+    padding: 20px;
+
+}
+
+.onecity {
+    background-color: white;
+    border: solid 1px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#searchbar {
+    margin: 10px 0;
+}

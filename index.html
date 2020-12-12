@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
+    <title>Weatherapp</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-3 left">
+            <div id="searchbar">
+              <input id="cityname" type="text" placeholder="cityname"/>
+              <button id="search">search</button>
+            </div>
+            <div id='searchhistory'></div>
+          </div>
+          <div class="col-sm-9 right">
+            <div id="results"></div>
+            <div id="forecastTitle"></div>
+            <div class="row" id="futureTemp"></div>
+      
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="script.js"></script>
+
+</body>
+</html>
